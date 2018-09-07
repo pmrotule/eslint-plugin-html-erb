@@ -1,6 +1,10 @@
 # eslint-plugin-html-erb
 
-Ignore Rails code in ERB template
+Ignore Rails code in ERB template in order to avoid fatal errors like this one:
+
+```
+Parsing error: Unexpected token %= (Fatal)
+```
 
 ## Installation
 
@@ -24,8 +28,8 @@ Add `html-erb` to the plugins section of your `.eslintrc` configuration file. Yo
 
 ```json
 {
-    "plugins": [
-        "html-erb"
-    ]
+  "plugins": [
+    "html-erb"
+  ]
 }
 ```
