@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-html-erb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ignore Rails code in ERB template",
   "homepage": "https://github.com/pmrotule/eslint-plugin-html-erb",
   "repository": {
